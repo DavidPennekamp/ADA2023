@@ -16,7 +16,7 @@ spec:
         app: training-api
     spec:
       containers:
-      - image: gcr.io/ada2023/training-api:0.0.1 # Docker image name, that we pushed to GCR - use your project id
+      - image: gcr.io/ada2023-376707/training-api:0.0.1 # Docker image name, that we pushed to GCR - use your project id
         name: training-api
         ports:
         - containerPort: 5000
